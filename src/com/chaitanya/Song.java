@@ -19,4 +19,12 @@ public class Song {
     public double getDuration() {
         return duration;
     }
+
+    @Override
+    public String toString() {
+        return "Song{" +
+                "title='" + title + '\'' +
+                ", duration=" + duration +
+                '}';
+    }
 }
